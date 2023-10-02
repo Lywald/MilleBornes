@@ -33,13 +33,11 @@ public class testsClasse {
 		s.ajouterFamilleCarte(new Botte(1, Probleme.Type.ACCIDENT));
 		
 		Iterator<Carte> it = s.iterator();
-		boolean lastNext = false;
 		
 		/*for(Iterator<Carte> it = s.iterator(); it.hasNext(); it.next()) {
 			System.out.println("removing carte");
 			it.remove();
 		}*/
-		
 		
 		do {				
 			it.next();
