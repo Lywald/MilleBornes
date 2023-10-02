@@ -1,10 +1,11 @@
+package cartes;
 
 public abstract class Carte {
 	public void setNombre(int nombre) {
 		this.nombre = nombre;
 	}
 
-	public Carte(int nombre) {
+	protected Carte(int nombre) {
 		super();
 		this.nombre = nombre;
 	}

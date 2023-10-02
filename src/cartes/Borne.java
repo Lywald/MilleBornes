@@ -1,3 +1,4 @@
+package cartes;
 
 public class Borne extends Carte {
 	int km;

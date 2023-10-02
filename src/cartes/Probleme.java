@@ -1,3 +1,4 @@
+package cartes;
 
 public abstract class Probleme extends Carte {
 
@@ -5,7 +6,7 @@ public abstract class Probleme extends Carte {
 		FEU, ESSENCE, CREVAISON, ACCIDENT
 	}
 	
-	Type type;
+	public Type type;
 
 	public Probleme(int nombre, Type type) {
 		super(nombre);
